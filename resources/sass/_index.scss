@@ -1,0 +1,19 @@
+#index{
+    margin-bottom: 25px;
+    margin-top: -180px;
+    .head{
+        position: relative;
+        .img-header{
+            width: 100%;
+            height: auto;
+            margin-top: -150px;
+        }
+        .panneau{
+            position: absolute;
+            left: 0;
+            bottom: -50px;
+            transform: rotate(-20deg);
+            z-index: 10;
+        }
+    }
+}

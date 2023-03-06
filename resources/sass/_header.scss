@@ -1,0 +1,36 @@
+$font-title:'Merriweather';
+$font-header:'Poppins';
+$hover-color:#1f8a32;
+
+header{
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    #navbarNav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .navbar-left{
+            width: 70%;
+        }
+        .navbar-right{
+            width: 30%;
+        }
+        ul{
+            margin: 10px;
+            display: flex;
+            li{
+                list-style-type: none;
+                a{
+                    color: #000;
+                    font-family: $font-header;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    &:hover{
+                        color: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+}
